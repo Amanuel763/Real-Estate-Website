@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  font-family: "Volkorn";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.4;
+  overflow-x: hidden; }
+
+.loader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: #d3d3d3;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.disppear {
+  animation: vanish 1s forwards; }
+
+@keyframes vanish {
+  100% {
+    opacity: 0;
+    visibility: hidden; } }
+
+.header-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+  clip-path: polygon(0 0, 100% 0, 100% 90vh, 0 100%); }
+  .header-video__content {
+    min-width: 100%;
+    min-height: 100%; }
+
+.header-overlay {
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #d5d5d5;
+  z-index: 1;
+  opacity: 0.45; }
+
+.header-text {
+  z-index: 2;
+  margin-left: 23rem;
+  background-image: linear-gradient(to right, #eba082, #c25e0c);
+  -webkit-background-clip: text;
+  color: transparent; }
+
+.header-text h1 {
+  font-size: 6rem;
+  margin-bottom: 0; }
+
+.header-text h3 {
+  font-size: 2rem;
+  padding-bottom: 2rem; }
+
+/* 
+    height: 95vh;
+    width: 100%;
+    background-size: cover;
+    background-position: top;
+    
+    clip-path: polygon(0 0, 100% 0, 100% 80vh, 0 100%); 
+    position: absolute;
+    z-index: -1;
+
+    */
+.row {
+  max-width: 114rem;
+  background-color: #ebc5c5;
+  margin: 0 auto;
+  margin-bottom: 8rem; }
+  .row:not(:last-child) {
+    margin-bottom: 8rem; }
+  .row::after {
+    content: "";
+    display: table;
+    clear: both; }
+  .row [class^="col-"] {
+    background-color: red;
+    float: left; }
+    .row [class^="col-"]:not(:last-child) {
+      margin-right: 6rem; }
+  .row .col-1-of-2 {
+    width: calc((100% - 6rem) /2); }
+  .row .col-1-of-3 {
+    width: calc((100% - 2 * 6rem) / 3); }
+  .row .col-2-of-3 {
+    width: calc(2 * ((100% - 2 * 6rem) /3) + 6rem); }
+  .row .col-1-of-4 {
+    width: calc((100% - 3 * 6rem) /4); }
+  .row .col-2-of-4 {
+    width: calc(2 * ((100% - 3 * 6rem) /4) + 6rem); }
+  .row .col-3-of-4 {
+    width: calc(3 * ((100% - 3 * 6rem) /4) + 2 * 6rem); }
+
+.section-header {
+  height: 100vh;
+  display: flex;
+  align-items: center; }
+
+.container {
+  max-width: 960px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin: auto;
+  text-align: center; }
+
+@media (max-width: 960px) {
+  .container {
+    padding-right: 3rem;
+    padding-left: 3rem; } }
