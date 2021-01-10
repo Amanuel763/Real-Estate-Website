@@ -1,0 +1,51 @@
+.section-info{
+    .row{
+        display: flex;
+        justify-content: flex-start;
+
+        img{
+            width: 80rem;
+            height: 50rem !important;
+            margin-left: -22.5rem;
+            background-position: top;
+            image-rendering: pixelated;
+
+        }
+
+        .info-Text{
+            text-align: center;
+            z-index: 1;
+            background-color: #ffffff;
+            padding-top: 3rem;
+            padding-bottom: 3rem;
+            margin-left: -7rem;
+
+
+
+            h3{
+                font-size: 3.5rem;
+                margin-top: 10rem;
+                margin-left: 20rem;
+            }
+
+            p{
+                font-size: 2rem;
+                margin-left: 20rem;
+                margin-top: 3rem;
+                margin-bottom: 3rem;
+            }
+
+            a{
+                padding: 1.5rem 10rem;
+                background-color: #f85d5d;
+                margin-left: 20rem;
+                text-decoration: none;
+                border-radius: 5px;
+                color: #fff;
+                font-size: 1.8rem;
+
+            }
+            
+        }
+    }
+}

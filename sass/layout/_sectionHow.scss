@@ -1,0 +1,65 @@
+.section-how{
+    height: 95vh;
+    padding-top: 20rem;
+    background-color: #ece5e5;
+    
+  }
+
+.section-how__wrapper{
+    margin-bottom: 13rem;
+
+    &-text{
+        transform: translate(39%, -50%);
+        font-size: 5rem;
+        background-image: linear-gradient(to right, $color-light, $color-light-1);
+        -webkit-background-clip: text;
+        color: transparent;
+    }
+
+    hr{
+        margin-left: auto;
+        margin-right: auto;
+        border-color: #fa52d5;
+        width: 10%;
+
+    }
+}
+
+.section-column__logo{
+    color: white;
+    margin-left: 14rem;
+    margin-bottom: 1.3rem;
+}
+
+
+.fa-shopping-cart{
+    font-size: 5rem;
+}
+
+
+.fa-money-check-alt{
+    font-size: 5rem;
+}
+
+
+.fa-chart-line{
+    font-size: 5rem;
+}
+
+.section-column__text{
+    justify-content: flex-start;
+
+
+    h5{
+        text-align: center;
+        font-size: 3.5rem;
+        margin-bottom: 1.3rem;
+    }
+
+
+    p{
+        font-size: 2rem;
+        text-align: center;
+
+    }
+}

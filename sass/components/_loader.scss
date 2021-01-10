@@ -1,22 +1,38 @@
-.loader{
-    position: fixed;
-    top: 0;
-    left: 0;
-    background: #d3d3d3;
-    height: 100%;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+/*.loader{
+    position: absolute;
+    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
   }
+
+  .loader>div{
+      height: 100px;
+      width: 100px;
+      border: 15px solid #45474b;
+      position: absolute;
+      margin: auto;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      border-radius: 50%;
+      animation: spin 1.5s infinte linear;
+  }
+
+  @keyframes spin{
+      100%{
+          transform: rotate(360deg);
+      }
+  }
+
   
-  .disppear{
-    animation: vanish 1s forwards;
-  }
+
   @keyframes vanish {
     100%{
       opacity: 0;
       visibility: hidden;
+      animation-duration: 10s !important;
     }
   }
+  */
 

@@ -1,0 +1,96 @@
+.footer-section{
+    text-align: center;
+    background-color: #f08c8c;
+    height: 41vh;
+    margin-top: -1rem;
+    padding-top: 1.5rem;
+    font-family: "Vollkorn";
+
+    #footer-column{
+        margin-top: 4rem;
+
+        .footer-logo1{
+            font-size: 8rem;
+            
+        }
+    
+        .footer-logo2{
+            margin-top: -3rem;
+            font-size: 5.8rem;
+        }
+    }
+
+    #footer-location{
+        margin-top: 4rem;
+
+        h3{
+            font-size: 3rem;
+        }
+
+        address{
+            font-size: 1.5rem;
+        }
+
+        hr{
+            width: 15%;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 2rem;
+            border-color:  rgb(255, 176, 5);
+        }
+    }
+
+    #footer-navigation{
+        margin-top: 4rem;        
+
+        h3{
+            font-size: 3rem;
+        }
+
+        p{
+            justify-content: flex-start;
+            margin-left: 2rem;
+            text-decoration: none;
+            font-size: 1.5rem;
+            color: #000;
+        }
+        hr{
+            width: 15%;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 2rem;
+            border-color:  rgb(255, 176, 5);
+        }
+    }
+
+    #footer-contact{
+        margin-top: 4rem;
+
+        h3{
+            font-size: 3rem;
+        }
+
+        p{
+            font-size: 1.5rem;
+        }
+
+        hr{
+            width: 15%;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 2rem;
+            border-color:  rgb(255, 176, 5);
+        }
+    }
+
+
+
+    .footer-bottom{
+
+        &__text{
+            font-size: 1.5rem;
+        }
+    }
+
+
+}

@@ -1,0 +1,46 @@
+
+.social-media{
+    background-color: lightcoral;
+    height: 20vh;
+    margin-top: -8.4rem;
+
+
+    .social-media__wrapper{
+        text-align: center;
+
+        .fab{
+            font-size: 4rem;
+            letter-spacing: 3.1rem;
+            margin-top: 7rem;
+            color: #fff;
+
+        }
+
+        .fa-facebook:hover{
+            color: rgb(252, 70, 70);
+            transition: 1s ease-in;
+        }
+
+        .fa-linkedin-in:hover{
+            color: rgb(252, 70, 70);
+            transition: 1s ease-in;
+
+        }
+
+        .fa-yahoo:hover{
+            color: rgb(252, 70, 70);
+            transition: 1s ease-in;
+
+        }
+
+        .fa-youtube:hover{
+            color: rgb(252, 70, 70);
+            transition: 1s ease-in;
+        }
+
+        .fa-twitter:hover{
+            color: rgb(252, 70, 70);
+            transition: 1s ease-in;
+        }
+    }
+}

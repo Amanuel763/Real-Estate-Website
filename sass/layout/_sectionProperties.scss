@@ -1,0 +1,115 @@
+.section-properties{
+    position: relative;
+
+
+    .section-properties:before{
+        content: "/";
+        position: absolute;
+        right: 80px;
+        top: 18px;
+        color: #999;
+    }
+
+
+    &__header{
+        margin-top: 5rem !important;
+        font-family: "Volkorn";
+        margin-bottom: 10rem;
+
+        &-text{
+            font-size: 5rem;
+            transform: translate(38%, -50%);
+            background-image: linear-gradient(to right, $color-light, $color-light-1);
+            -webkit-background-clip: text;
+            color: transparent;
+        }
+
+        
+    }
+
+    .propertyListing{
+
+        img {
+            width: 100%;
+            display: block;
+        }
+        .overlay{
+            z-index: 1;
+            padding: 1rem 1rem;
+            margin-top: 3rem;
+            position: absolute;
+            background-color: rgb(247, 191, 109) !important;
+            color: white;
+            cursor: pointer;
+        }
+
+        .far{
+            margin-left: 20rem;
+            margin-top: 3rem;
+            z-index: 1;
+            color: rgb(253, 253, 253);
+            font-size: 3rem;
+            position: absolute;
+
+            &:hover{
+                background-image: linear-gradient(to left, $color-primary, $color-primary-dark);
+                -webkit-background-clip: text;
+                color: transparent;
+            }
+
+        }
+
+        .property{
+            margin-top: 1rem;
+
+            h5{
+                font-size: 1.5rem;
+            }
+
+            hr{
+                width: 10% !important;
+                margin-left: 10rem;
+                margin-top: 1rem;
+                margin-bottom: 1.5rem;
+                border-color: $color-primary-light;
+            }
+
+            p{
+                font-size: 1.2rem;
+                margin-bottom: 2rem;
+            }
+
+            a {
+                padding: 1rem 9rem;
+                background-color: #fff;
+                border: 1px solid rgb(245, 97, 97);
+                border-radius: 5px;
+                text-decoration: none;
+                cursor: pointer;
+                color: rgb(245, 97, 97) !important;
+                position: absolute;
+
+                h6{
+                    font-size: 1.5rem;
+                }
+
+                &:hover{
+                    background-color: rgb(245, 97, 97);
+                    color: #fff !important;
+                    transition: 0.6s;
+                    border: none;
+                }
+            }
+
+            
+        }
+
+
+    }
+
+
+
+}
+
+
+
