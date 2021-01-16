@@ -1,7 +1,5 @@
-var loader = document.querySelector(".loader")
-
-window.addEventListener("load", vanish);
-
-function vanish() {
-  loader.classList.add("disppear");
-}
+$(document).ready(function(){
+    $('.menu-toggle').click(function(){
+        $('nav').toggleClass('active')
+    })
+})
