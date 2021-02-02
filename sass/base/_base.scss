@@ -9,12 +9,13 @@
 
 html{
     font-size: 62.5%;
+    overflow: hidden;
+
 }
 
 body, html{
     font-family: "Vollkorn";
     overflow-x: hidden;
-    overflow-y: hidden;
     font-weight: 700;
     position: relative;
     
